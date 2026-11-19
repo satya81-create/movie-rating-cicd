@@ -14,5 +14,5 @@ def predict_rating(genre, duration, budget, popularity):
 
 
 if __name__ == "__main__":
-    rating = predict_rating("Drama", 150, 80.0, 90.0)
-    print("Predicted Rating:", rating)
+    rating = predict_rating("Thriller", 130, 55.0, 80.0)
+    print("Predicted Rating (updated):", rating)
